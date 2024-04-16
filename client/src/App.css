@@ -1,0 +1,25 @@
+@import url('index.css') primary-color;
+
+#root {
+    min-width: 320px;
+    max-width: 768px;
+    width: 40%;
+    /* margin: auto; */
+}
+
+.navbar {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    space-between: center;
+    min-width: 320px;
+    font-size: 0.6rem;
+    border-bottom: 2px solid #8b0d0d;
+
+    h1 {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+}
